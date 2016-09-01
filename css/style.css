@@ -1,4 +1,8 @@
-.main_table_div{
-	border:1px solid black;
-	border-radius: 15px;
+@font-face {
+	font-family: Muli;
+	src:url("Muli-ExtraLight.ttf");
+}
+
+body{
+	font-family: Muli;
 }
