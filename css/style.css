@@ -1,8 +1,12 @@
 @font-face {
 	font-family: Muli;
-	src:url("Muli-ExtraLight.ttf");
+	src: url(../muli/Muli.ttf);
 }
 
 body{
-	font-family: Muli;
+	font-family:Muli;
+}
+
+h1 {
+	font-size: 50px;
 }
