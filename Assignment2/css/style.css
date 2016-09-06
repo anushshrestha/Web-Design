@@ -12,27 +12,62 @@
 }
 
 body {
-    font-family: Muli;
+    font: 14px/20px 'Muli', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font: 14px/20px 'Muli', sans-serif;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7dd8e8;
 }
 
 ul {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
+/*brings component to center*/
+.container {
+    margin: 0 auto;
+    width: 960px;
+    overflow: auto;
 }
 
 .header {
     overflow: hidden;
     background: #7dd8e8;
     padding: 20px;
-}
-
-.container {
-    margin: 0 auto;
-    width: 960px;
-    overflow: auto;
 }
 
 .logo {
@@ -48,9 +83,9 @@ h1 {
     font-weight: 300;
 }
 
-.searchbox-container {
+.searchbox {
     float: left;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-left: 25px;
 }
 
@@ -61,8 +96,20 @@ input {
 
 }
 
-.search-result {
+.search-wrap {
+    float: left;
+    margin-right: 20px;
     background: #cbeff6;
+    border-radius: 10px;
+}
+
+.search-result{
+    background: #cbeff6;
+}
+
+.search-wrap .close{
+    padding: 5px;
+    border-radius: 3px;
 }
 
 .search-button {
@@ -73,11 +120,13 @@ input {
 
 .menu li {
     float: left;
-    margin-left: 10px;
+   /*not in li but in after*/
+    /*margin-left:10px;*/
 }
 
-.menu li:after {
-    content: " | ";
+.menu li:after{
+    margin: 0px 2px;
+    content: "|";
 }
 
 .menu li:last-child:after {
@@ -89,13 +138,16 @@ input {
     content: "|";
 }*/
 
-.header-navigation {
+.header-nav {
     float: right;
     text-align: right;
-
 }
 
-.navigation {
+.header-nav span {
+    display: block;
+}
+
+.nav {
     background: #f5f5f5;
     overflow: hidden;
 }
