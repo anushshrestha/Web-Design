@@ -1,185 +1,257 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 @font-face {
     font-family: Muli;
     src: url(../../assignment1/Muli.ttf);
 }
 
-body{
-    font-family:Muli;
-}
 * {
-    margin: 0 ;
-    padding :0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-
-}
-
-
-.header {
-    overflow: hidden;
-    background:#7dd8e8;
-    padding:20px;
-}
-
-
-.container {
-    margin: 0 auto;
-    width: 960px;
-}
-
-.logo {
-    float: left;
-}
-
-
-.logo a {
-    display: block;
-}
-
-h1{
-    font-size: 45px;
-    font-weight: 300;
-}
-
-.searchbox-container{
-    float:left;
-    margin-top: 25px;
-    margin-left: 25px;
-}
-input{
-    padding:5px;
-    border: 0px;
-    border-radius: 10px;
-
-}
-
-.search-result{
-    background: #cbeff6;
-}
-.search-button{
-    background: #274f56;
-    color: white;
-    font-weight: 600;
+    font-family: Muli;
 }
 
 ul {
     list-style: none;
 }
 
-.menu li{
-    float:left;
+a {
+    text-decoration: none;
+}
+
+.header {
+    overflow: hidden;
+    background: #7dd8e8;
+    padding: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    overflow: auto;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    display: block;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.searchbox-container {
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+input {
+    padding: 5px;
+    border: 0px;
+    border-radius: 10px;
+
+}
+
+.search-result {
+    background: #cbeff6;
+}
+
+.search-button {
+    background: #274f56;
+    color: white;
+    font-weight: 600;
+}
+
+.menu li {
+    float: left;
     margin-left: 10px;
 }
 
-.menu li:after{
+.menu li:after {
     content: " | ";
 }
 
-.menu li:last-child:after
-{
+.menu li:last-child:after {
     content: "";
 }
 
-.header-navigation{
-    float:right;
+/*
+.menu li+ li{
+    content: "|";
+}*/
+
+.header-navigation {
+    float: right;
     text-align: right;
 
 }
 
-.navigation{
+.navigation {
     background: #f5f5f5;
     overflow: hidden;
 }
 
-.nav-left{
-    float:left;
+.nav-left {
+    float: left;
 }
 
-.nav-left li{
+.nav-left li {
     float: left;
     margin: 10px;
 }
 
-.nav-right{
+.nav-right {
     float: right;
+    margin: 10px 0px 0px 10px;
 
 }
 
-.nav-right li{
-float: right;
-margin:10px 0 10px 10px;
+.nav-right li {
+    float: right;
+    margin: 10px 0 10px 10px;
 }
 
-.sidebar{
-    float:left;
+.sidebar {
+    float: left;
     width: 190px;
     background: #f5f5f5;
-    margin-top: 30px;
 }
 
-.sidebar li{
+.sidebar li {
     /*padding because it needs background*/
     padding: 10px;
 }
 
-.sidebar li:first-child{
-    background:#7dd8e8;
+.sidebar li:first-child {
+    background: #7dd8e8;
+    font-size: 14px;
 }
 
-.sidebar li:not(:first-child):hover{
+.sidebar li:not(:first-child) {
+    font-size: 10px;
+}
+
+.sidebar li:not(:first-child):hover {
     background: white;
     color: #7dd8e8;
+
 }
 
-.main-content{
+.main-content-wrapper {
+    margin: 30px 0px 40px 0px;
+}
+
+.main-content {
     width: 520px;
     float: left;
-    margin: 30px;
+    margin: 0px 30px;
 }
 
-.main-content-header{
+.main-content-header {
     background: #274f56;
     color: white;
-    padding:20px;
+    padding: 20px;
 }
 
-.main-content-body{
+.main-content-body {
 
     height: 520px;
     overflow: scroll;
     overflow-x: hidden;
 }
 
-.main-content-body ul{
+.main-content-body ul {
     margin-top: 30px;
 }
 
-.main-content-body a{
+.main-content-body a {
     color: #7dd8e8;
 
 }
 
-.main-content-body span{
+.main-content-body span {
     display: block;
 }
 
-.main-content-body img{
+.main-content-body .list-title {
+    font-size: 12px;
+}
+
+.main-content-body img {
     border-radius: 10px;
     float: left;
     margin-right: 10px;
 
 }
-.main-content-body li{
+
+.main-content-body li {
     padding-bottom: 16px;
 }
 
-.list-explanation{
-    font-size: 12px;
+.list-explanation {
+    font-size: 10px;
 }
 
+/*to the top span*/
+.main-content .to-top {
+    float: right;
+    color: #4e4e4e;
+    margin-top: 16px;
+}
+
+/*scroll bar*/
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #979797;
+    border-radius: 6px;
+}
+
+/*footer*/
+.footer {
+    clear: both;
+    overflow: hidden;
+
+    background: #dddddd;
+}
+
+.footer ul li {
+    padding: 10px 0px;
+    float: left;
+    color: #979797;
+}
+
+.footer a {
+    color: #979797;
+}
+
+.footer ul li::after {
+    margin: 10px;
+    content: "\2022";
+}
+
+.footer ul li:last-child:after {
+    content: "";
+}
+
+.footer span {
+    padding: 10px;
+    float: right;
+    margin: 1px;
+}
 
