@@ -1,0 +1,708 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: Muli;
+    src: url(../muli/Muli.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px/20px 'Muli', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font: 14px/20px 'Muli', sans-serif;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7dd8e8;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+.header {
+    overflow: hidden;
+    background: #7dd8e8;
+    padding: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo a {
+    display: block;
+}
+
+.searchbox,.sidebar {
+    display: none;
+}
+
+.header-nav {
+    text-align: center;
+}
+
+.header-nav span{
+    display: block;
+}
+
+.menu {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.header-nav li {
+    float: left;
+}
+
+.header-nav li a:hover {
+    color: white;
+}
+
+.header-nav li:after {
+    content: "|";
+}
+
+.header-nav li:last-child:after {
+    content: "";
+}
+
+.nav {
+    display: none;
+}
+
+
+.main-content-wrapper {
+    margin: 30px 0px 40px 0px;
+}
+
+.main-content-header {
+    background: #274f56;
+    color: white;
+    padding: 15px;
+    display: block;
+    font-size: 18px;
+}
+
+.main-content-header span {
+    font-size: 14px;
+}
+
+.main-content-row {
+    margin: 15px 15px;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+    overflow: auto;
+}
+
+.main-content-img {
+    float: left;
+    padding-right: 10px;
+    width: 20%;
+
+}
+
+.main-content-info {
+    float: left;
+    display: block;
+    width: 70%;
+}
+
+.list-explanation li{
+    float: left;
+}
+
+.list-explanation li:after{
+    content: '|';
+}
+
+.list-explanation li:last-child:after{
+    content: "";
+    padding:0 5px;
+}
+
+.main-content-body a {
+    color: #7dd8e8;
+
+}
+
+.main-content-body span {
+    display: block;
+}
+
+.main-content-body .list-title {
+    font-size: 16px;
+}
+
+.main-content-body img {
+    border-radius: 10px;
+
+}
+
+.main-content-body li {
+    /*padding-bottom: 16px;*/
+}
+
+/*to the top span*/
+.main-content .to-top {
+    float: right;
+    color: #4e4e4e;
+    margin: 16px;
+}
+
+/*footer*/
+.footer {
+    clear: both;
+    overflow: hidden;
+    padding: 20px;
+    background: #dddddd;
+}
+
+.footer ul li {
+    float: left;
+    color: #979797;
+}
+
+.footer a {
+    color: #979797;
+}
+
+.footer ul li{
+   margin-left: 10px;
+}
+
+
+.footer span {
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+
+
+@media (min-width: 767px) {
+
+    .header{
+        overflow: hidden;
+    }
+
+    .header-nav {
+        float: right;
+        text-align: right;
+    }
+
+    .header-nav span {
+        display: block;
+    }
+
+    .logo{
+        float: left;
+    }
+
+    .nav {
+        display: block;
+        background: #f5f5f5;
+        overflow: hidden;
+    }
+
+    .nav li {
+        margin-left: 0px;
+    }
+
+    .nav li a{
+        display: block;
+        padding: 10px;
+    }
+
+    .nav li a:hover{
+        background: #7dd8e8;
+        color: white;
+    }
+
+    .nav-left {
+        float: left;
+    }
+
+    .nav-left li {
+        float: left;
+        /*margin: 10px;*/
+    }
+
+    .nav-right {
+        float: right;
+    }
+
+    .nav-right li {
+        float: right;
+        /*margin: 10px 0 10px 10px;*/
+    }
+
+
+    .sidebar{
+        display: block;
+        float: left;
+        width: 20%;
+        background: #f5f5f5;
+    }
+
+
+    .sidebar-right{
+        display: none;
+    }
+
+    .sidebar-left{
+        display: block;
+        float: left;
+        background: #f5f5f5;
+    }
+
+    .sidebar-left .sidebar-row {
+        padding-bottom: 25px;
+    }
+
+    .sidebar-left .sidebar-title {
+        background: #7dd8e8;
+        font-size: 16px;
+        display: block;
+        padding: 12px;
+    }
+
+    .sidebar  .sidebar-left li {
+        font-size: 14px;
+    }
+
+    .sidebar .sidebar-left  li a {
+        padding: 10px;
+        display: block;
+    }
+
+    .sidebar .sidebar-left  li a:hover {
+        background: white;
+        color: #7dd8e8;
+
+    }
+
+    .main-content-wrapper {
+        overflow: hidden;
+        margin: 30px 0px 40px 0px;
+    }
+
+    .main-content {
+        width: 76%;
+        float: left;
+        margin: 0 0 0 3.9063%;
+    }
+
+    .main-content-header {
+        background: #274f56;
+        color: white;
+        padding: 15px;
+        display: block;
+    }
+
+    .main-content-body {
+
+        height: 520px;
+        width: 100%;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .main-content-row {
+        /*margin: 10px 0px;*/
+        border-bottom: 1px solid;
+        /*padding: 15px 0px;*/
+        overflow: auto;
+    }
+
+    .main-content-img {
+        float: left;
+        padding-right: 10px;
+
+    }
+
+    .main-content-info {
+        float: left;
+        display: block;
+    }
+
+    .main-content-body a {
+        color: #7dd8e8;
+
+    }
+
+    .main-content-body span {
+        display: block;
+    }
+
+
+    .main-content-body img {
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+
+    .main-content-body li {
+        /*padding-bottom: 16px;*/
+    }
+
+    .main-content-body .list-title {
+        font-size: 16px;
+    }
+
+    .main-content-body .list-explanation {
+        float: left;
+        font-size: 12px;
+    }
+
+
+    .main-content-img {
+        float: left;
+        width: 10%;
+        padding-right: 10px;
+    }
+
+    .main-content-info {
+        float: left;
+        display: block;
+        width: 80%;
+    }
+
+    /*to the top span*/
+    .main-content .to-top {
+        float: right;
+        color: #4e4e4e;
+        margin-top: 16px;
+    }
+
+    /*scroll bar*/
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    ::-webkit-scrollbar-track-piece {
+        background: #f2f2f2;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #979797;
+        border-radius: 6px;
+    }
+
+
+    /*footer*/
+    .footer span {
+        padding: 0px;
+       float: right;
+    }
+
+
+
+}
+
+@media (min-width: 992px) {
+
+
+    .container {
+        margin: 0 auto;
+        width: 960px;
+    }
+
+    .header {
+        overflow: hidden;
+        background: #7dd8e8;
+        padding: 20px;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    .logo a {
+        display: block;
+    }
+
+    h1 {
+        font-size: 45px;
+        font-weight: 300;
+    }
+
+    .searchbox {
+        float: left;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+
+    input {
+        padding: 5px;
+        border: 0px;
+        border-radius: 10px;
+
+    }
+
+    .search-wrap {
+        float: left;
+        margin-right: 20px;
+        background: #cbeff6;
+        border-radius: 10px;
+    }
+
+    .search-result {
+        background: #cbeff6;
+    }
+
+    .search-wrap .close {
+        padding: 5px;
+        border-radius: 3px;
+    }
+
+    .search-button {
+        background: #274f56;
+        color: white;
+        font-weight: 600;
+    }
+
+    .menu li {
+        float: left;
+        /*not in li but in after*/
+        /*margin-left:10px;*/
+    }
+
+    .menu li:after {
+        margin: 0px 2px;
+        content: "|";
+    }
+
+    .menu li:last-child:after {
+        content: "";
+    }
+
+    /*
+    .menu li+ li{
+        content: "|";
+    }*/
+
+    .header-nav {
+        float: right;
+        text-align: right;
+    }
+
+    .header-nav span {
+        display: block;
+    }
+
+    .nav {
+        background: #f5f5f5;
+        overflow: hidden;
+    }
+
+    .nav li {
+        margin-left: 10px;
+    }
+
+    .nav li a{
+        padding: 20px;git
+    }
+
+    .nav-left {
+        float: left;
+    }
+
+    .nav-left li {
+        float: left;
+        /*margin: 10px;*/
+    }
+
+    .nav-right {
+        float: right;
+    }
+
+    .nav-right li {
+        float: right;
+        /*margin: 10px 0 10px 10px;*/
+    }
+
+    .sidebar {
+        float: left;
+        width: 190px;
+        background: #f5f5f5;
+    }
+
+    .sidebar-right{
+        display: block;
+    }
+
+    .sidebar-row {
+        padding-bottom: 25px;
+    }
+
+    .sidebar-title {
+        background: #7dd8e8;
+        font-size: 16px;
+        display: block;
+        padding: 12px;
+    }
+
+    .sidebar li {
+        font-size: 14px;
+    }
+
+    .sidebar li a {
+        padding: 10px;
+        display: block;
+    }
+
+    .sidebar li a:hover {
+        background: white;
+        color: #7dd8e8;
+
+    }
+
+    .main-content-wrapper {
+        margin: 30px 0px 40px 0px;
+    }
+
+    .main-content {
+        width: 520px;
+        float: left;
+        margin: 0px 30px;
+    }
+
+    .main-content-header {
+        background: #274f56;
+        color: white;
+        padding: 15px;
+        display: block;
+    }
+
+    .main-content-body {
+
+        height: 520px;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .main-content-row {
+        margin: 10px 0px;
+        border-bottom: 1px solid;
+        padding-bottom: 15px;
+        overflow: auto;
+    }
+
+    .main-content-img {
+        float: left;
+        padding-right: 10px;
+
+    }
+
+    .main-content-info {
+        float: left;
+        display: block;
+    }
+
+    .main-content-body a {
+        color: #7dd8e8;
+
+    }
+
+    .main-content-body span {
+        display: block;
+    }
+
+    .main-content-body .list-title {
+        font-size: 16px;
+    }
+
+    .main-content-body img {
+        border-radius: 10px;
+
+    }
+
+    .main-content-body li {
+        /*padding-bottom: 16px;*/
+    }
+
+    .list-explanation {
+        font-size: 12px;
+    }
+
+    /*to the top span*/
+    .main-content .to-top {
+        float: right;
+        color: #4e4e4e;
+        margin-top: 16px;
+    }
+
+    /*scroll bar*/
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    ::-webkit-scrollbar-track-piece {
+        background: #f2f2f2;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #979797;
+        border-radius: 6px;
+    }
+
+    /*footer*/
+    .footer {
+        clear: both;
+        overflow: hidden;
+        padding: 10px 0px;
+        background: #dddddd;
+    }
+
+    .footer ul li {
+        float: left;
+        color: #979797;
+    }
+
+    .footer a {
+        color: #979797;
+    }
+
+    .footer ul li::after {
+        margin: 10px;
+        content: "\2022";
+    }
+
+    .footer ul li:last-child:after {
+        content: "";
+    }
+
+    .footer span {
+        float: right;
+        margin: 1px;
+    }
+
+
+
+
+}

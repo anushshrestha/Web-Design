@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: Muli;
-    src: url(../muli/Muli.ttf) format("truetype");
+    src: url(../muli/Muli-Light.ttf) format("truetype");
 }
 
 * {
@@ -40,22 +40,8 @@ ul {
 /*brings component to center*/
 .container {
     margin: 0 auto;
-    overflow: auto;
-    padding: 0 15px;
+    width: 960px;
 }
-
-@media (min-width: 767px){
-    .container{
-        width:740px;
-    }
-}
-
-@media (min-width: 992px){
-    .container{
-        width:960px;
-    }
-}
-
 
 .header {
     overflow: hidden;
@@ -126,12 +112,6 @@ input {
     content: "";
 }
 
-menu li a:hover{
-    background: white;
-    color: black;
-
-}
-
 /*
 .menu li+ li{
     content: "|";
@@ -149,21 +129,11 @@ menu li a:hover{
 .nav {
     background: #f5f5f5;
     overflow: hidden;
-    /*padding: 10px 0px;*/
+    padding: 10px 0px;
 }
 
-.nav li{
-    /*margin-left: 10px;*/
-}
-
-.nav li a{
-    padding: 16px;
-    display: block;
-}
-
-.nav li a:hover{
-    background: #7dd8e8;
-    color: white;
+.nav li {
+    margin-left: 10px;
 }
 
 .nav-left {
@@ -174,8 +144,6 @@ menu li a:hover{
     float: left;
     /*margin: 10px;*/
 }
-
-
 
 .nav-right {
     float: right;
@@ -196,21 +164,20 @@ menu li a:hover{
     padding-bottom: 25px;
 }
 
-
 .sidebar-title {
     background: #7dd8e8;
-    font-size: 16px;
+    font-size: 14px;
     display: block;
     padding: 12px;
 }
 
 .sidebar li {
-    font-size: 14px;
+    font-size: 12px;
 }
 
-.sidebar li a{
+.sidebar li a {
     padding: 10px;
-    display:block;
+    display: block;
 }
 
 .sidebar li a:hover {
@@ -234,13 +201,7 @@ menu li a:hover{
     color: white;
     padding: 15px;
     display: block;
-    font-size: 18px;
 }
-
-.main-content-header span{
-    font-size: 14px;
-}
-
 
 .main-content-body {
 
@@ -250,18 +211,19 @@ menu li a:hover{
 }
 
 .main-content-row {
-    margin: 15px 0px;
+    margin: 10px 0px;
     border-bottom: 1px solid;
     padding-bottom: 15px;
     overflow: auto;
 }
 
-.main-content-img{
+.main-content-img {
     float: left;
     padding-right: 10px;
 
 }
-.main-content-info{
+
+.main-content-info {
     float: left;
     display: block;
 }
@@ -276,7 +238,7 @@ menu li a:hover{
 }
 
 .main-content-body .list-title {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .main-content-body img {
@@ -289,7 +251,7 @@ menu li a:hover{
 }
 
 .list-explanation {
-    /*font-size: 10px;*/
+    font-size: 10px;
 }
 
 /*to the top span*/
@@ -343,7 +305,4 @@ menu li a:hover{
     float: right;
     margin: 1px;
 }
-
-
-
 
