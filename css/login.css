@@ -1,0 +1,50 @@
+html,body,.col-1,.login-pg,.main,.login-content,.login-wrapper{
+    height: 100%;
+}
+
+input{
+    border-radius: 15px;
+    display: block;
+    border: none;
+
+}
+
+.login-pg{
+    background: #7dd8e8;
+}
+
+.login-content{
+    margin: 0 auto;
+    display: table;
+}
+
+.login-wrapper{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.login-wrapper .welcome-wrapper{
+    padding: 10px 0px;
+}
+
+.login-wrapper .welcome-text{
+    color:white;
+}
+
+.title{
+    padding-bottom: 15px;
+}
+
+.form-wrapper .login-email,.login-password{
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.login-btn-wrapper{
+    display: inline-block;
+}
+.login-btn-wrapper .login-button{
+    background: #274f56;
+    float: left;
+}
+

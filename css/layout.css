@@ -1,0 +1,137 @@
+/*col 1 layout*/
+.col-1{
+}
+
+.col-1 .main{
+}
+
+.col-1 .main .col-main{
+
+}
+
+
+/*col 2 left*/
+
+.col-2-left{
+    overflow: hidden;
+}
+.
+col-2 .col-left{
+    float: left;
+}
+
+.col-2-left .main{
+    float: right;
+}
+
+.col-2-left .main .col-main{
+    width: 100%;
+}
+
+
+/*col 2 right*/
+
+.col-2-right{
+    overflow: hidden;
+}
+
+.col-2-right .main{
+    float: left;
+}
+
+.col-2-right .main .col-main{
+    width: 100%;
+}
+
+.col-2-right .col-right{
+    float:right;
+}
+
+/*col 3 layouts*/
+
+/*col 3 right*/
+
+.col-3-right{
+    overflow: hidden;
+}
+
+.col-3-right .main{
+    float: left;
+}
+
+.col-3-right .main .col-l-left{
+    float: left;
+}
+
+.col-3-right .main .col-main{
+    float: right;
+}
+
+.col-3-right .col-right{
+    float: right;
+}
+
+/*col 3 left*/
+
+.col-3-left{
+    overflow: hidden;
+}
+
+.col-3-left .col-left{
+    float: left;
+}
+
+.col-3-left .main{
+    float: right;
+}
+
+.col-3-left .main .col-main{
+    float: left;
+}
+
+.col-3-left .main .col-r-right{
+    float: right;
+}
+
+/*col 3 l left*/
+.col-3-l-left{
+    overflow: hidden;
+}
+
+.col-3-l-left .col-left{
+    float: left;
+}
+
+.col-3-l-left .main{
+    float: right;
+}
+
+.col-3-l-left .main .col-l-left{
+    float: left;
+}
+
+.col-3-l-left .main .col-main{
+    float: right;
+}
+
+/*col 3 r right*/
+
+.col-3-r-right{
+    overflow: hidden;
+}
+
+.col-3-r-right .main{
+    float: left;
+}
+
+.col-3-r-right .main .col-main{
+    float: left;
+}
+
+.col-3-r-right .main .col-r-right{
+    float: right;
+}
+
+.col-3-r-right .col-right{
+    float: right;
+}
