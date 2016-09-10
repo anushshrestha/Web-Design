@@ -20,7 +20,7 @@ h1 {
 }
 
 p {
-    font: 14px/20px 'Muli', sans-serif;
+    font: 12px/20px 'Muli', sans-serif;
     color: black;
 }
 
@@ -701,6 +701,165 @@ img {
         margin: 1px;
     }
 
+
+    /*page-all*/
+
+    .page-pageall .col-main{
+        margin-left: 10px;
+    }
+
+    .page-pageall .topic-box-wrp{
+        width: 100%;
+/*        padding-top: 25px;*/
+    }
+
+    .page-pageall .profile-thumbnail{
+        float:left;
+    }
+
+    .page-pageall .profile-thumbnail .img-wrp img{
+        border-radius: 10px;
+        width: 130px;
+        height: 140px;
+    }
+
+    .page-pageall .profile-thumbnail .profile-name{
+        font-weight: bold;
+        font-size: 1em;
+        padding: 10px 0 20px;
+        text-align: center;
+        background: #f1f0f0;
+        border-radius: 11px;
+    }
+
+    .page-pageall .topic-box-wrapper{
+       float: right;
+        width: 82%;
+    }
+
+    .page-pageall .topic-boxes{
+        overflow: hidden;
+
+        border-bottom: 1px solid #A6A6A6;
+        margin-left: 30px;
+        padding-bottom: 30px;
+    }
+
+    .page-pageall .topic-boxes .title{
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .page-pageall .topic-boxes .title h1{
+        font-size: 1.4em;
+        padding-bottom: 20px;
+    }
+
+    .page-pageall .topic-collection {
+
+    }
+
+    .page-pageall .topic-nav{
+        width: 180px;
+        padding: 10px 15px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 10px;
+        border: 2px solid #b1a4a4;
+        margin-right: 9px;
+    }
+
+    .page-pageall .topic-nav:hover .sub-menu ul{
+        display: block;
+        background: white;
+        height: auto;
+        width: 180px;
+    }
+
+    .page-pageall .topic-nav img{
+        width:100%;
+    }
+
+    .page-pageall .topic-nav p {
+        font-weight: bold;
+        margin: 0px;
+        font-size: 12px;
+    }
+
+    .page-pageall .sub-menu{
+        width: 180px;
+        display: none;
+    }
+
+    .page-pageall .topic-nav .sub-menu-title{
+        background: #7dd8e8;
+        color: white;
+    }
+
+    .page-pageall .topic-nav .sub-menu li:hover{
+        color: white;
+        background: red;
+    }
+
+    .page-pageall .topic-nav:hover{
+        border: 2px solid #41D3DB;
+    }
+
+
+    /*page all topic collection*/
+
+    .page-pageall .topic-list-container{
+        clear: both;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        overflow: hidden;
+    }
+
+    .page-pageall .topic-box-wrp{
+        overflow: hidden;
+    }
+
+    .page-pageall .topic-box{
+        width: 150px;
+        font-size: 10px;
+        border-radius: 10px;
+        border:2px solid #CBCFD0;
+        display: inline-block;
+        margin-right: 30px;
+        background: #839c98;
+    }
+
+    .page-pageall .topic-header{
+        background-color: #fff;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .page-pageall .topic-name{
+        text-align: center;
+        border-bottom: 1px solid #DFDFE1
+    }
+
+    .page-pageall .topic-name .topic-action{
+        float: right;
+        font-style: italic;
+    }
+
+    .page-pageall .topic-info{
+        clear: both;
+    }
+
+    .page-pageall .topic-info .comments{
+        float: right;
+    }
+
+    .page-pageall .topic-body img{
+        width: 100%;
+    }
+
+    .page-pageall .topic-tag{
+        padding:5px;
+    }
 
 
 

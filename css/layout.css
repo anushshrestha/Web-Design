@@ -90,10 +90,13 @@
 
     }
 
-    .col-3-left-layout{
+    .col-3-left-layout,
+    .col-2-right-layout{
         margin:30px 0px;
         overflow: hidden;
     }
+
+
 }
 
 
