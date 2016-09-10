@@ -1,137 +1,99 @@
-/*col 1 layout*/
-.col-1{
+*{
+    box-sizing:border-box;
+}
+.container {
+    margin: 0 auto;
+    padding: 0px 15px;
 }
 
-.col-1 .main{
+.col-1-layout,
+.col-2-left-layout,
+.col-2-right-layout,
+.col-3-left-layout,
+.col-3-right-layout,
+.col-3-l-left-layout,
+.col-3-r-right-layout,
+.main,
+.col-left,
+.col-right,
+.col-main,
+.col-l-left,
+.col-r-right {
+    /*height: 500px;*/
+    /*border: 1px solid;*/
 }
 
-.col-1 .main .col-main{
-
+.col-left,
+.col-l-left,
+.col-r-right,
+.col-right {
+    display: none;
 }
 
-
-/*col 2 left*/
-
-.col-2-left{
-    overflow: hidden;
-}
-.
-col-2 .col-left{
-    float: left;
-}
-
-.col-2-left .main{
-    float: right;
-}
-
-.col-2-left .main .col-main{
+.col-main{
     width: 100%;
 }
 
+@media (min-width: 768px) {
 
-/*col 2 right*/
-
-.col-2-right{
-    overflow: hidden;
+    .container {
+        width: 730px;
+    }
 }
 
-.col-2-right .main{
-    float: left;
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+        padding: 0px;
+    }
+
+    .col-left,
+    .col-right,
+    .col-l-left,
+    .col-r-right{
+        display: block;
+        width: 190px;
+    }
+
+    .col-left,.col-l-left,
+    .col-2-right-layout .main,
+    .col-3-left-layout .col-main,
+    .col-3-right-layout .main,
+    .col-3-r-right-layout .main,
+    .col-3-r-right-layout .col-main{
+        float:left;
+    }
+
+    .col-right,.col-r-right,
+    .col-2-left-layout .main,
+    .col-3-right-layout .col-main,
+    .col-3-left-layout .main,
+    .col-3-l-left-layout .main,
+    .col-3-l-left-layout .col-main{
+        float:right;
+
+    }
+
+    .main{
+        width: 740px;
+    }
+
+    .col-1-layout .main{
+        width: 100%;
+    }
+
+    .col-3-left-layout .col-main,
+    .col-3-right-layout .col-main,
+    .col-3-r-right-layout .col-main,
+    .col-3-l-left-layout .col-main{
+        width:520px;
+
+    }
+
+    .col-3-left-layout{
+        margin:30px 0px;
+        overflow: hidden;
+    }
 }
 
-.col-2-right .main .col-main{
-    width: 100%;
-}
 
-.col-2-right .col-right{
-    float:right;
-}
-
-/*col 3 layouts*/
-
-/*col 3 right*/
-
-.col-3-right{
-    overflow: hidden;
-}
-
-.col-3-right .main{
-    float: left;
-}
-
-.col-3-right .main .col-l-left{
-    float: left;
-}
-
-.col-3-right .main .col-main{
-    float: right;
-}
-
-.col-3-right .col-right{
-    float: right;
-}
-
-/*col 3 left*/
-
-.col-3-left{
-    overflow: hidden;
-}
-
-.col-3-left .col-left{
-    float: left;
-}
-
-.col-3-left .main{
-    float: right;
-}
-
-.col-3-left .main .col-main{
-    float: left;
-}
-
-.col-3-left .main .col-r-right{
-    float: right;
-}
-
-/*col 3 l left*/
-.col-3-l-left{
-    overflow: hidden;
-}
-
-.col-3-l-left .col-left{
-    float: left;
-}
-
-.col-3-l-left .main{
-    float: right;
-}
-
-.col-3-l-left .main .col-l-left{
-    float: left;
-}
-
-.col-3-l-left .main .col-main{
-    float: right;
-}
-
-/*col 3 r right*/
-
-.col-3-r-right{
-    overflow: hidden;
-}
-
-.col-3-r-right .main{
-    float: left;
-}
-
-.col-3-r-right .main .col-main{
-    float: left;
-}
-
-.col-3-r-right .main .col-r-right{
-    float: right;
-}
-
-.col-3-r-right .col-right{
-    float: right;
-}
