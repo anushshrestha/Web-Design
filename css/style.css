@@ -1371,7 +1371,8 @@ textarea{
 }
 
 .page-browse .topic-box h2 {
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .page-browse .topic-box ul {
@@ -1382,8 +1383,7 @@ textarea{
 }
 
 .page-browse .topic-box ul li {
-    font-size: 11px;
-    padding: 0 12px;
+    float: left;
 }
 
 .page-browse .topic-post-wrapper {
@@ -1412,6 +1412,7 @@ textarea{
 }
 
 .page-browse .topic-post ul li {
+    float: left;
     color: #9d9d9d;
     font-size: 10px;
 }
@@ -1460,6 +1461,14 @@ textarea{
 
     .page-browse .profile-thumbnail .profile-name {
         width: 100%;
+        background: #f7f7f7;
+        border-radius: 15px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: 5px;
+        padding: 10px 0 40px 0;
+        text-align: center;
+        display: inline-block;
     }
 
     .page-browse .topic-box {
@@ -1467,6 +1476,13 @@ textarea{
         margin-left: 30px;
         width: 536px;
     }
+
+
+    .page-browse .topic-box span {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
 
     .page-browse .topic-box ul li a {
         float: left;
@@ -1484,13 +1500,111 @@ textarea{
     .page-browse .browse-topic-boxes span {
         background: #b46c22;
         display: block;
-        padding: 15px;
+        padding: 12px;
     }
 
     .page-browse .browse-topic-boxes span a {
         color: #ffffff;
         font-weight: 600;
+        display: inline-block;
     }
+
+    .browse-topic-boxes .browse-dropdown span {
+        display: block;
+        padding: 0 10px;
+        line-height: 30px;
+    }
+
+
+
+    .page-browse .browse-dropdown {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        width: 225px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        border: 1px solid #989898;
+        padding: 2px 2px 0 2px;
+    }
+
+    .page-browse .browse-topic-boxes:hover .browse-dropdown {
+        display: block;
+    }
+
+    .browse-dropdown .my-topicboxes {
+        background: #333333;
+        padding: 6px 10px;
+    }
+    .browse-dropdown .my-topicboxes span {
+        background: #333333;
+        display: block;
+        padding: 0px;
+        line-height: 16px;
+
+    }
+
+
+
+    .browse-dropdown span {
+        display: block;
+        padding: 0 10px;
+        line-height: 30px;
+    }
+
+    .browse-dropdown div {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+
+
+
+    .browse-dropdown .crafts span {
+        background: #b46c22;
+    }
+
+
+
+    .browse-dropdown ul {
+        padding: 12px 0;
+        background: #f5f5f5;
+    }
+
+    .browse-dropdown ul li {
+        display: inline-block;
+        padding: 6px;
+    }
+
+    .browse-dropdown ul li a {
+        display: inline-block;
+        padding-left: 15px;
+        background-image: url('../images/tbBlack-icon.png');
+        background-position: left center;
+        background-repeat: no-repeat;
+    }
+
+    .browse-dropdown ul li a:hover {
+        background-image: url('../images/tbBlue-icon.png');
+        color: #2fc1d9;
+    }
+
+    .browse-dropdown .health span {
+        background: #d95e56;
+    }
+
+    .browse-dropdown .reading span {
+        background: #72794f;
+    }
+
+    .browse-dropdown .eating span {
+        background: #a1a9da;
+    }
+
+
+
+
+
 
     .page-browse .entries-list {
         padding: 30px 0;

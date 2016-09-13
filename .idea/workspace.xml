@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/css/style.css" line="1500" mnemonic="4" />
+    <bookmark url="file://$PROJECT_DIR$/css/style.css" line="1614" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5568b79-c12d-485f-ae5a-dd30a5ed4c3f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all-friends-dropdown.html" afterPath="$PROJECT_DIR$/all-friends-dropdown.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home-search.html" afterPath="$PROJECT_DIR$/home-search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-all.html" afterPath="$PROJECT_DIR$/page-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/browse-dropdown.html" afterPath="$PROJECT_DIR$/browse-dropdown.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -47,12 +45,29 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home-search.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="browse-dropdown.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/browse-dropdown.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.1934066">
+                  <caret line="143" column="68" selection-start-line="143" selection-start-column="68" selection-end-line="143" selection-end-column="68" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home-search.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/home-search.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.96274215">
-                  <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-                  <folding />
+                <state vertical-scroll-proportion="-5.836364">
+                  <caret line="67" column="10" selection-start-line="17" selection-start-column="3" selection-end-line="67" selection-end-column="10" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -90,8 +105,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2195122">
-                  <caret line="282" column="2" selection-start-line="282" selection-start-column="2" selection-end-line="282" selection-end-column="2" />
+                <state vertical-scroll-proportion="0.5093555">
+                  <caret line="1511" column="45" selection-start-line="1511" selection-start-column="45" selection-end-line="1511" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
@@ -151,10 +166,10 @@
         <option value="$PROJECT_DIR$/responsive/assignment2.html" />
         <option value="$PROJECT_DIR$/home-search.xhtml" />
         <option value="$PROJECT_DIR$/css/layout.css" />
-        <option value="$PROJECT_DIR$/browse-dropdown.html" />
         <option value="$PROJECT_DIR$/page-all.html" />
         <option value="$PROJECT_DIR$/all-friends-dropdown.html" />
         <option value="$PROJECT_DIR$/home-search.html" />
+        <option value="$PROJECT_DIR$/browse-dropdown.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -319,7 +334,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13839285" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7427056" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28647214" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -727,20 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/browse-dropdown.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.40857142">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-all.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="9.581819">
@@ -770,16 +771,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home-search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.96274215">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding />
+        <state vertical-scroll-proportion="-5.836364">
+          <caret line="67" column="10" selection-start-line="17" selection-start-column="3" selection-end-line="67" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browse-dropdown.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1934066">
+          <caret line="143" column="68" selection-start-line="143" selection-start-column="68" selection-end-line="143" selection-end-column="68" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2195122">
-          <caret line="282" column="2" selection-start-line="282" selection-start-column="2" selection-end-line="282" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.5093555">
+          <caret line="1511" column="45" selection-start-line="1511" selection-start-column="45" selection-end-line="1511" selection-end-column="45" />
           <folding />
         </state>
       </provider>
