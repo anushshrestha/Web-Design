@@ -244,22 +244,51 @@ display: inline-block;
         display: none;
     }
 
+    .heading{
+        background: #2fc1d9;
+        padding: 10px;
+    }
+
+    .col-3-left-layout .container{
+        background-image: url("../images/background.png");
+        background-repeat:repeat-y;
+    }
+
     .sidebar-left {
         display: block;
         float: left;
         background: #f5f5f5;
     }
 
+    .sidebar-left .sidebar-title {
+        width: 80%;
+        background: #2fc1d9;
+        font-size: 16px;
+        display: block;
+    }
+
+    .sidebar-title-icon{
+        float: right;
+    }
     .sidebar-left .sidebar-row {
         padding-bottom: 25px;
     }
 
-    .sidebar-left .sidebar-title {
-        background: #7dd8e8;
-        font-size: 16px;
-        display: block;
-        padding: 12px;
+    .sidebar-left .recent-searches li a{
+        background-image: url('../images/download-icon.png');
+        background-position: 95% 50%;
+        background-repeat: no-repeat;
     }
+
+
+
+    .sidebar-left .saved-searches li a{
+        background-image: url('../images/burger-icon.png');
+        background-position: 95% 50%;
+        background-repeat: no-repeat;
+    }
+
+
 
     .sidebar .sidebar-left li {
         font-size: 14px;
@@ -271,6 +300,7 @@ display: inline-block;
     }
 
     .sidebar .sidebar-left li a:hover {
+
         background: white;
         color: #7dd8e8;
 
@@ -435,6 +465,10 @@ display: inline-block;
         float: right;
     }
 
+    .nav-right .no-requests{
+        color: #969696;
+    }
+
     .nav-right li {
         float: right;
         /*margin: 10px 0 10px 10px;*/
@@ -476,6 +510,7 @@ display: inline-block;
         margin-right: 20px;
         background: #cbeff6;
         border-radius: 10px;
+        width: 300px;
     }
 
     .search-result {
@@ -485,6 +520,8 @@ display: inline-block;
 
     .search-wrap .close {
         border-radius: 3px;
+        float: right;
+        margin-right: 10px;
     }
 
     .search-button {
@@ -564,15 +601,23 @@ display: inline-block;
         display: block;
     }
 
+
     .sidebar-row {
         padding-bottom: 25px;
     }
 
+
+
     .sidebar-title {
-        background: #7dd8e8;
         font-size: 16px;
         display: block;
-        padding: 12px;
+        float: left;
+        width:80%;
+    }
+
+    .sidebar-title-icon img{
+        float: right;
+        border: none;
     }
 
     .sidebar li {
@@ -985,7 +1030,7 @@ textarea{
     display: block;
     border: 1px solid;
     height: auto;
-    width: 290px;
+    width: 200px;
     top:5%;
     left: 105%;
 }
@@ -1045,6 +1090,11 @@ textarea{
     display: block;
     padding: 8px;
 
+}
+
+.suggest-category-wrapper{
+    overflow: scroll;
+    overflow-x:hidden;
 }
 
 .category-name ul li,.suggest-category ul li{
